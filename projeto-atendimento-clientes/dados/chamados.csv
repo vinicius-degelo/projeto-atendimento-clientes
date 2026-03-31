@@ -1,0 +1,501 @@
+﻿id_chamado,data_abertura,categoria,canal,tecnico,regiao,status,tempo_resolucao_h,sla_contratado_h,dentro_sla,reincidente,nps
+CH0001,2024-11-23,Manutenção preventiva,App,Lucas,São Paulo,Resolvido,41.0,48,True,False,1.0
+CH0002,2024-10-29,Instalação,Telefone,Ana,Sorocaba,Resolvido,32.4,36,True,True,9.0
+CH0003,2024-08-02,Falha técnica,App,Fernanda,Ribeirão Preto,Em aberto,96.3,72,False,False,
+CH0004,2024-05-22,Falha técnica,App,Lucas,Ribeirão Preto,Resolvido,73.7,72,True,False,5.0
+CH0005,2024-01-23,Instalação,Telefone,Lucas,Ribeirão Preto,Cancelado,78.2,36,False,False,
+CH0006,2024-10-22,Falha técnica,Telefone,Carlos,Santos,Resolvido,87.8,72,True,False,1.0
+CH0007,2024-05-22,Instalação,E-mail,Carlos,Sorocaba,Resolvido,31.5,36,True,False,4.0
+CH0008,2024-11-21,Falha técnica,E-mail,Lucas,Campinas,Cancelado,73.7,72,True,False,
+CH0009,2024-12-16,Dúvida de uso,E-mail,Ana,Sorocaba,Resolvido,86.6,24,False,False,6.0
+CH0010,2024-06-10,Falha técnica,Presencial,Ana,Campinas,Em aberto,126.9,72,False,True,
+CH0011,2024-10-14,Peça com defeito,Presencial,Ana,Sorocaba,Resolvido,139.2,96,False,False,3.0
+CH0012,2024-09-09,Manutenção preventiva,Telefone,Carlos,Santos,Resolvido,41.8,48,True,False,10.0
+CH0013,2024-07-14,Peça com defeito,App,Carlos,Sorocaba,Em aberto,161.3,96,False,True,
+CH0014,2024-05-16,Dúvida de uso,App,Ana,Sorocaba,Resolvido,28.3,24,True,False,4.0
+CH0015,2024-02-24,Dúvida de uso,E-mail,Lucas,São Paulo,Cancelado,39.5,24,True,False,
+CH0016,2024-11-02,Dúvida de uso,Telefone,Roberto,Campinas,Em aberto,25.1,24,True,False,
+CH0017,2024-01-30,Falha técnica,Telefone,Lucas,Campinas,Cancelado,77.5,72,True,True,
+CH0018,2024-03-06,Instalação,E-mail,Ana,Sorocaba,Cancelado,55.4,36,True,False,
+CH0019,2024-12-19,Falha técnica,Presencial,Fernanda,São Paulo,Resolvido,127.2,72,False,False,7.0
+CH0020,2024-05-06,Falha técnica,App,Carlos,São Paulo,Resolvido,79.9,72,True,True,9.0
+CH0021,2024-04-27,Manutenção preventiva,App,Lucas,Campinas,Resolvido,44.6,48,True,False,10.0
+CH0022,2024-10-19,Peça com defeito,E-mail,Carlos,Santos,Em aberto,158.8,96,False,False,
+CH0023,2024-06-30,Instalação,Presencial,Carlos,São Paulo,Em aberto,62.6,36,False,False,
+CH0024,2024-07-25,Dúvida de uso,E-mail,Roberto,Santos,Resolvido,31.3,24,True,False,2.0
+CH0025,2024-05-07,Manutenção preventiva,Telefone,Carlos,Campinas,Em aberto,72.0,48,True,False,
+CH0026,2024-03-26,Instalação,Presencial,Fernanda,São Paulo,Em aberto,38.4,36,True,True,
+CH0027,2024-07-18,Dúvida de uso,App,Lucas,Santos,Em aberto,46.5,24,True,False,
+CH0028,2024-03-20,Falha técnica,E-mail,Roberto,São Paulo,Resolvido,123.8,72,False,True,8.0
+CH0029,2024-01-26,Peça com defeito,E-mail,Carlos,Sorocaba,Em aberto,102.3,96,True,False,
+CH0030,2024-02-04,Falha técnica,Telefone,Carlos,Sorocaba,Em aberto,123.3,72,False,False,
+CH0031,2024-02-11,Instalação,App,Ana,Ribeirão Preto,Cancelado,69.8,36,False,False,
+CH0032,2024-07-21,Falha técnica,Presencial,Lucas,Sorocaba,Resolvido,87.1,72,True,True,1.0
+CH0033,2024-02-21,Manutenção preventiva,E-mail,Carlos,Campinas,Cancelado,40.8,48,True,False,
+CH0034,2024-07-08,Dúvida de uso,Presencial,Lucas,São Paulo,Resolvido,81.8,24,False,False,9.0
+CH0035,2024-12-07,Peça com defeito,Telefone,Lucas,Campinas,Resolvido,126.4,96,False,False,1.0
+CH0036,2024-05-19,Dúvida de uso,E-mail,Roberto,Sorocaba,Cancelado,57.8,24,False,False,
+CH0037,2024-09-07,Dúvida de uso,Telefone,Ana,Ribeirão Preto,Resolvido,41.9,24,True,True,0.0
+CH0038,2024-03-23,Instalação,Presencial,Ana,Sorocaba,Cancelado,28.0,36,True,False,
+CH0039,2024-01-19,Dúvida de uso,E-mail,Carlos,Ribeirão Preto,Cancelado,13.5,24,True,False,
+CH0040,2024-04-17,Falha técnica,App,Ana,Campinas,Resolvido,138.4,72,False,False,6.0
+CH0041,2024-03-24,Falha técnica,Telefone,Fernanda,Campinas,Em aberto,93.3,72,True,False,
+CH0042,2024-05-16,Falha técnica,Presencial,Fernanda,Ribeirão Preto,Resolvido,137.2,72,False,True,3.0
+CH0043,2024-06-05,Falha técnica,Telefone,Roberto,Ribeirão Preto,Resolvido,74.3,72,True,False,4.0
+CH0044,2024-11-24,Peça com defeito,App,Ana,Sorocaba,Em aberto,125.5,96,False,False,
+CH0045,2024-05-15,Manutenção preventiva,Presencial,Lucas,São Paulo,Resolvido,64.3,48,True,False,6.0
+CH0046,2024-07-16,Peça com defeito,App,Lucas,Campinas,Resolvido,99.7,96,True,False,8.0
+CH0047,2024-07-05,Instalação,App,Roberto,Sorocaba,Resolvido,47.9,36,True,False,1.0
+CH0048,2024-06-07,Instalação,Presencial,Fernanda,Campinas,Resolvido,86.6,36,False,False,3.0
+CH0049,2024-11-11,Peça com defeito,Presencial,Lucas,Sorocaba,Resolvido,84.0,96,True,False,4.0
+CH0050,2024-12-01,Dúvida de uso,Presencial,Ana,São Paulo,Em aberto,19.7,24,True,False,
+CH0051,2024-05-25,Peça com defeito,App,Roberto,Campinas,Cancelado,118.3,96,True,False,
+CH0052,2024-04-11,Falha técnica,Telefone,Lucas,Campinas,Resolvido,77.1,72,True,False,1.0
+CH0053,2024-12-22,Instalação,Presencial,Carlos,Santos,Em aberto,47.6,36,True,True,
+CH0054,2024-04-22,Falha técnica,Presencial,Fernanda,Campinas,Cancelado,69.0,72,True,False,
+CH0055,2024-08-25,Peça com defeito,App,Lucas,Santos,Cancelado,162.8,96,False,False,
+CH0056,2024-10-07,Instalação,Presencial,Lucas,Santos,Resolvido,51.1,36,True,False,10.0
+CH0057,2024-11-16,Falha técnica,Presencial,Lucas,São Paulo,Resolvido,70.3,72,True,False,4.0
+CH0058,2024-03-11,Falha técnica,Presencial,Roberto,Sorocaba,Resolvido,129.9,72,False,False,1.0
+CH0059,2024-08-26,Instalação,E-mail,Carlos,Sorocaba,Resolvido,78.7,36,False,False,9.0
+CH0060,2024-07-13,Instalação,App,Lucas,Sorocaba,Resolvido,38.0,36,True,False,6.0
+CH0061,2024-04-22,Instalação,App,Fernanda,Campinas,Resolvido,25.0,36,True,False,5.0
+CH0062,2024-08-27,Falha técnica,Telefone,Carlos,Santos,Cancelado,124.4,72,False,False,
+CH0063,2024-03-10,Instalação,Telefone,Fernanda,Ribeirão Preto,Resolvido,35.8,36,True,False,7.0
+CH0064,2024-08-03,Dúvida de uso,Presencial,Carlos,São Paulo,Resolvido,31.4,24,True,False,5.0
+CH0065,2024-01-16,Falha técnica,Telefone,Lucas,Campinas,Resolvido,68.6,72,True,False,7.0
+CH0066,2024-08-26,Dúvida de uso,E-mail,Ana,Ribeirão Preto,Resolvido,46.7,24,True,False,1.0
+CH0067,2024-02-25,Peça com defeito,App,Ana,São Paulo,Resolvido,116.7,96,True,False,6.0
+CH0068,2024-10-30,Falha técnica,App,Lucas,São Paulo,Resolvido,124.8,72,False,False,1.0
+CH0069,2024-06-26,Peça com defeito,App,Fernanda,Santos,Em aberto,107.3,96,True,True,
+CH0070,2024-02-24,Instalação,Presencial,Roberto,Sorocaba,Resolvido,80.9,36,False,False,8.0
+CH0071,2024-10-02,Instalação,Presencial,Ana,São Paulo,Em aberto,88.4,36,False,False,
+CH0072,2024-05-22,Instalação,Presencial,Roberto,Campinas,Resolvido,48.1,36,True,True,5.0
+CH0073,2024-09-06,Falha técnica,App,Lucas,Campinas,Resolvido,91.7,72,True,False,4.0
+CH0074,2024-02-13,Falha técnica,Presencial,Fernanda,Santos,Em aberto,68.7,72,True,False,
+CH0075,2024-01-09,Manutenção preventiva,E-mail,Fernanda,Sorocaba,Resolvido,44.8,48,True,False,10.0
+CH0076,2024-09-28,Dúvida de uso,App,Ana,São Paulo,Em aberto,28.3,24,True,False,
+CH0077,2024-04-08,Dúvida de uso,E-mail,Lucas,Sorocaba,Resolvido,38.6,24,True,False,4.0
+CH0078,2024-05-24,Manutenção preventiva,App,Ana,Ribeirão Preto,Resolvido,42.5,48,True,False,0.0
+CH0079,2024-01-24,Manutenção preventiva,App,Fernanda,São Paulo,Cancelado,78.1,48,False,False,
+CH0080,2024-01-07,Peça com defeito,Presencial,Fernanda,São Paulo,Resolvido,96.3,96,True,False,0.0
+CH0081,2024-02-03,Instalação,Telefone,Lucas,Ribeirão Preto,Em aberto,48.7,36,True,False,
+CH0082,2024-02-13,Falha técnica,Presencial,Fernanda,Santos,Resolvido,88.5,72,True,False,3.0
+CH0083,2024-08-14,Dúvida de uso,Presencial,Carlos,Campinas,Cancelado,34.4,24,True,False,
+CH0084,2024-11-16,Falha técnica,Telefone,Fernanda,Santos,Resolvido,66.3,72,True,True,1.0
+CH0085,2024-12-18,Peça com defeito,App,Fernanda,São Paulo,Em aberto,94.4,96,True,False,
+CH0086,2024-12-17,Falha técnica,E-mail,Roberto,Campinas,Resolvido,79.6,72,True,True,10.0
+CH0087,2024-02-06,Manutenção preventiva,App,Fernanda,Ribeirão Preto,Resolvido,65.7,48,True,False,4.0
+CH0088,2024-12-24,Instalação,Presencial,Lucas,Ribeirão Preto,Resolvido,45.5,36,True,False,6.0
+CH0089,2024-01-14,Manutenção preventiva,Telefone,Ana,Santos,Resolvido,104.3,48,False,False,4.0
+CH0090,2024-09-22,Instalação,E-mail,Fernanda,Ribeirão Preto,Resolvido,80.9,36,False,False,7.0
+CH0091,2024-07-28,Dúvida de uso,Telefone,Fernanda,Sorocaba,Resolvido,63.8,24,False,False,7.0
+CH0092,2024-01-19,Instalação,App,Carlos,Sorocaba,Resolvido,28.2,36,True,False,6.0
+CH0093,2024-08-24,Instalação,E-mail,Carlos,Campinas,Resolvido,46.4,36,True,False,7.0
+CH0094,2024-05-16,Peça com defeito,App,Lucas,Campinas,Resolvido,109.1,96,True,True,1.0
+CH0095,2024-12-29,Falha técnica,Telefone,Carlos,Campinas,Resolvido,63.4,72,True,False,1.0
+CH0096,2024-09-12,Dúvida de uso,App,Fernanda,Sorocaba,Cancelado,29.4,24,True,False,
+CH0097,2024-03-15,Instalação,E-mail,Lucas,Ribeirão Preto,Resolvido,73.3,36,False,False,6.0
+CH0098,2024-01-02,Dúvida de uso,Presencial,Lucas,Sorocaba,Resolvido,69.4,24,False,False,7.0
+CH0099,2024-07-12,Instalação,E-mail,Fernanda,São Paulo,Resolvido,71.5,36,False,False,6.0
+CH0100,2024-06-11,Instalação,Presencial,Ana,Santos,Em aberto,98.0,36,False,False,
+CH0101,2024-01-19,Falha técnica,App,Lucas,Santos,Cancelado,138.0,72,False,False,
+CH0102,2024-01-08,Falha técnica,E-mail,Lucas,Santos,Em aberto,88.1,72,True,True,
+CH0103,2024-11-28,Manutenção preventiva,Presencial,Carlos,Sorocaba,Resolvido,102.1,48,False,False,7.0
+CH0104,2024-02-05,Falha técnica,E-mail,Carlos,Santos,Resolvido,116.8,72,False,False,1.0
+CH0105,2024-03-26,Dúvida de uso,Telefone,Ana,Campinas,Resolvido,14.0,24,True,False,5.0
+CH0106,2024-09-28,Instalação,E-mail,Lucas,Campinas,Cancelado,26.8,36,True,False,
+CH0107,2024-09-11,Peça com defeito,E-mail,Fernanda,Ribeirão Preto,Resolvido,93.1,96,True,False,4.0
+CH0108,2024-12-12,Peça com defeito,Telefone,Fernanda,Ribeirão Preto,Resolvido,96.4,96,True,False,9.0
+CH0109,2024-08-21,Dúvida de uso,Presencial,Lucas,Ribeirão Preto,Resolvido,53.1,24,False,False,6.0
+CH0110,2024-12-24,Dúvida de uso,Presencial,Carlos,Sorocaba,Resolvido,32.4,24,True,False,10.0
+CH0111,2024-09-11,Dúvida de uso,App,Ana,São Paulo,Resolvido,18.8,24,True,False,4.0
+CH0112,2024-11-17,Manutenção preventiva,Presencial,Roberto,Ribeirão Preto,Resolvido,49.1,48,True,True,2.0
+CH0113,2024-07-31,Falha técnica,E-mail,Roberto,Campinas,Resolvido,138.1,72,False,False,5.0
+CH0114,2024-05-11,Instalação,App,Ana,Santos,Resolvido,82.5,36,False,False,1.0
+CH0115,2024-10-12,Dúvida de uso,Presencial,Roberto,Sorocaba,Resolvido,31.3,24,True,False,7.0
+CH0116,2024-07-14,Dúvida de uso,E-mail,Lucas,Campinas,Resolvido,34.3,24,True,False,8.0
+CH0117,2024-11-27,Manutenção preventiva,App,Carlos,Ribeirão Preto,Em aberto,40.2,48,True,True,
+CH0118,2024-09-09,Manutenção preventiva,E-mail,Lucas,Santos,Resolvido,78.5,48,False,False,7.0
+CH0119,2024-10-27,Falha técnica,Telefone,Roberto,São Paulo,Em aberto,125.6,72,False,False,
+CH0120,2024-12-19,Dúvida de uso,Presencial,Roberto,Sorocaba,Resolvido,20.5,24,True,True,5.0
+CH0121,2024-11-26,Dúvida de uso,Presencial,Ana,Sorocaba,Resolvido,46.9,24,True,True,7.0
+CH0122,2024-01-11,Manutenção preventiva,E-mail,Lucas,Campinas,Resolvido,109.8,48,False,True,3.0
+CH0123,2024-10-27,Falha técnica,App,Ana,Campinas,Resolvido,133.9,72,False,True,9.0
+CH0124,2024-10-03,Dúvida de uso,Telefone,Ana,Sorocaba,Resolvido,12.9,24,True,False,0.0
+CH0125,2024-06-14,Manutenção preventiva,App,Carlos,Santos,Resolvido,62.7,48,True,False,8.0
+CH0126,2024-08-17,Dúvida de uso,Telefone,Lucas,Ribeirão Preto,Cancelado,20.0,24,True,False,
+CH0127,2024-08-22,Manutenção preventiva,Presencial,Fernanda,São Paulo,Resolvido,92.5,48,False,False,1.0
+CH0128,2024-02-11,Dúvida de uso,E-mail,Lucas,Ribeirão Preto,Cancelado,21.9,24,True,False,
+CH0129,2024-07-14,Peça com defeito,App,Carlos,Sorocaba,Cancelado,105.8,96,True,True,
+CH0130,2024-04-20,Instalação,E-mail,Carlos,Ribeirão Preto,Em aberto,53.8,36,True,False,
+CH0131,2024-08-06,Dúvida de uso,App,Carlos,São Paulo,Resolvido,81.0,24,False,True,7.0
+CH0132,2024-08-09,Manutenção preventiva,E-mail,Carlos,Santos,Resolvido,57.1,48,True,False,8.0
+CH0133,2024-06-30,Instalação,App,Ana,Santos,Resolvido,36.7,36,True,False,9.0
+CH0134,2024-04-24,Manutenção preventiva,App,Lucas,Sorocaba,Resolvido,46.0,48,True,False,3.0
+CH0135,2024-11-10,Peça com defeito,App,Roberto,São Paulo,Resolvido,93.8,96,True,False,4.0
+CH0136,2024-04-02,Falha técnica,Presencial,Carlos,Sorocaba,Cancelado,86.7,72,True,False,
+CH0137,2024-04-20,Instalação,Presencial,Lucas,Sorocaba,Em aberto,37.3,36,True,False,
+CH0138,2024-02-13,Manutenção preventiva,E-mail,Fernanda,Santos,Resolvido,74.4,48,False,False,1.0
+CH0139,2024-11-06,Instalação,App,Carlos,Ribeirão Preto,Em aberto,42.4,36,True,False,
+CH0140,2024-12-13,Peça com defeito,App,Carlos,Campinas,Em aberto,98.2,96,True,False,
+CH0141,2024-06-03,Falha técnica,App,Ana,Campinas,Resolvido,64.3,72,True,False,7.0
+CH0142,2024-07-13,Peça com defeito,App,Fernanda,São Paulo,Resolvido,115.0,96,True,False,0.0
+CH0143,2024-06-09,Peça com defeito,Presencial,Carlos,Ribeirão Preto,Em aberto,140.0,96,False,False,
+CH0144,2024-03-28,Peça com defeito,App,Lucas,Santos,Em aberto,114.4,96,True,False,
+CH0145,2024-09-25,Manutenção preventiva,App,Carlos,Sorocaba,Em aberto,82.6,48,False,False,
+CH0146,2024-11-20,Manutenção preventiva,E-mail,Ana,Campinas,Cancelado,88.8,48,False,False,
+CH0147,2024-02-22,Falha técnica,E-mail,Fernanda,Santos,Resolvido,65.5,72,True,True,10.0
+CH0148,2024-10-15,Peça com defeito,App,Carlos,Santos,Em aberto,150.1,96,False,False,
+CH0149,2024-08-14,Dúvida de uso,Telefone,Carlos,Ribeirão Preto,Resolvido,14.7,24,True,False,7.0
+CH0150,2024-05-26,Manutenção preventiva,Presencial,Lucas,Campinas,Resolvido,56.0,48,True,False,0.0
+CH0151,2024-06-13,Peça com defeito,E-mail,Roberto,São Paulo,Em aberto,141.6,96,False,False,
+CH0152,2024-09-15,Falha técnica,E-mail,Ana,Ribeirão Preto,Resolvido,143.6,72,False,False,8.0
+CH0153,2024-07-09,Dúvida de uso,Presencial,Roberto,São Paulo,Em aberto,80.6,24,False,True,
+CH0154,2024-06-17,Manutenção preventiva,Presencial,Lucas,Campinas,Cancelado,62.1,48,True,False,
+CH0155,2024-06-19,Manutenção preventiva,E-mail,Fernanda,Campinas,Cancelado,86.9,48,False,False,
+CH0156,2024-10-31,Manutenção preventiva,Presencial,Lucas,São Paulo,Resolvido,47.8,48,True,False,2.0
+CH0157,2024-11-26,Instalação,App,Roberto,Santos,Cancelado,35.1,36,True,False,
+CH0158,2024-04-08,Falha técnica,E-mail,Lucas,Sorocaba,Resolvido,90.4,72,True,False,1.0
+CH0159,2024-01-20,Dúvida de uso,E-mail,Lucas,Campinas,Cancelado,17.6,24,True,False,
+CH0160,2024-08-12,Manutenção preventiva,App,Roberto,Santos,Em aberto,44.6,48,True,False,
+CH0161,2024-04-29,Peça com defeito,App,Lucas,Santos,Resolvido,157.6,96,False,False,3.0
+CH0162,2024-08-24,Dúvida de uso,Presencial,Ana,Ribeirão Preto,Em aberto,87.2,24,False,False,
+CH0163,2024-01-27,Instalação,Telefone,Ana,Ribeirão Preto,Resolvido,84.8,36,False,False,1.0
+CH0164,2024-08-18,Peça com defeito,Presencial,Carlos,Santos,Resolvido,116.8,96,True,False,7.0
+CH0165,2024-01-28,Instalação,App,Carlos,Ribeirão Preto,Cancelado,59.8,36,True,False,
+CH0166,2024-02-20,Dúvida de uso,E-mail,Ana,Santos,Resolvido,45.0,24,True,False,7.0
+CH0167,2024-08-17,Peça com defeito,Telefone,Lucas,Sorocaba,Resolvido,91.8,96,True,False,2.0
+CH0168,2024-08-04,Manutenção preventiva,E-mail,Lucas,Santos,Resolvido,37.7,48,True,False,6.0
+CH0169,2024-02-02,Manutenção preventiva,Telefone,Roberto,Santos,Em aberto,56.7,48,True,False,
+CH0170,2024-01-01,Peça com defeito,E-mail,Roberto,São Paulo,Resolvido,90.7,96,True,True,10.0
+CH0171,2024-09-26,Peça com defeito,Telefone,Roberto,Ribeirão Preto,Cancelado,100.9,96,True,False,
+CH0172,2024-01-09,Dúvida de uso,App,Roberto,Campinas,Resolvido,35.7,24,True,False,1.0
+CH0173,2024-01-23,Dúvida de uso,App,Fernanda,Santos,Cancelado,56.4,24,False,False,
+CH0174,2024-11-19,Falha técnica,Telefone,Carlos,Campinas,Resolvido,141.3,72,False,True,0.0
+CH0175,2024-01-22,Dúvida de uso,Presencial,Ana,Ribeirão Preto,Resolvido,74.1,24,False,True,4.0
+CH0176,2024-07-01,Manutenção preventiva,App,Fernanda,Ribeirão Preto,Resolvido,49.2,48,True,False,6.0
+CH0177,2024-04-05,Instalação,App,Fernanda,São Paulo,Em aberto,84.9,36,False,False,
+CH0178,2024-08-08,Peça com defeito,App,Fernanda,Sorocaba,Resolvido,86.9,96,True,False,10.0
+CH0179,2024-08-06,Falha técnica,App,Lucas,Santos,Em aberto,86.2,72,True,False,
+CH0180,2024-05-20,Manutenção preventiva,Presencial,Carlos,Campinas,Resolvido,64.8,48,True,False,10.0
+CH0181,2024-11-07,Instalação,E-mail,Lucas,São Paulo,Resolvido,52.0,36,True,False,5.0
+CH0182,2024-11-05,Falha técnica,App,Lucas,Ribeirão Preto,Em aberto,87.5,72,True,False,
+CH0183,2024-07-22,Dúvida de uso,E-mail,Fernanda,Sorocaba,Resolvido,49.2,24,False,False,2.0
+CH0184,2024-03-01,Dúvida de uso,Presencial,Ana,São Paulo,Resolvido,34.0,24,True,False,7.0
+CH0185,2024-08-19,Falha técnica,Telefone,Roberto,São Paulo,Em aberto,142.4,72,False,False,
+CH0186,2024-10-08,Peça com defeito,App,Roberto,Sorocaba,Resolvido,154.2,96,False,False,10.0
+CH0187,2024-04-24,Manutenção preventiva,E-mail,Roberto,Santos,Resolvido,53.8,48,True,False,5.0
+CH0188,2024-10-09,Falha técnica,Telefone,Fernanda,Sorocaba,Cancelado,74.3,72,True,False,
+CH0189,2024-07-29,Instalação,Telefone,Fernanda,Sorocaba,Cancelado,35.4,36,True,True,
+CH0190,2024-06-25,Falha técnica,E-mail,Carlos,São Paulo,Cancelado,102.2,72,False,False,
+CH0191,2024-09-22,Falha técnica,E-mail,Lucas,Ribeirão Preto,Resolvido,93.7,72,True,False,3.0
+CH0192,2024-02-10,Dúvida de uso,App,Ana,Sorocaba,Resolvido,22.9,24,True,True,8.0
+CH0193,2024-10-24,Falha técnica,App,Lucas,Ribeirão Preto,Resolvido,123.1,72,False,True,0.0
+CH0194,2024-11-29,Falha técnica,Presencial,Lucas,Ribeirão Preto,Cancelado,61.1,72,True,False,
+CH0195,2024-11-24,Dúvida de uso,E-mail,Carlos,São Paulo,Em aberto,80.9,24,False,False,
+CH0196,2024-03-21,Instalação,Presencial,Roberto,Ribeirão Preto,Em aberto,36.2,36,True,False,
+CH0197,2024-07-23,Falha técnica,Telefone,Ana,São Paulo,Resolvido,76.8,72,True,False,4.0
+CH0198,2024-01-26,Dúvida de uso,Presencial,Roberto,Sorocaba,Em aberto,43.2,24,True,False,
+CH0199,2024-06-09,Falha técnica,Presencial,Carlos,Santos,Resolvido,118.4,72,False,False,4.0
+CH0200,2024-09-15,Instalação,E-mail,Fernanda,Ribeirão Preto,Resolvido,25.8,36,True,False,4.0
+CH0201,2024-10-01,Manutenção preventiva,Presencial,Roberto,São Paulo,Resolvido,45.5,48,True,False,5.0
+CH0202,2024-07-24,Manutenção preventiva,E-mail,Fernanda,Sorocaba,Cancelado,46.4,48,True,False,
+CH0203,2024-05-23,Peça com defeito,Telefone,Roberto,Sorocaba,Cancelado,87.5,96,True,False,
+CH0204,2024-07-06,Falha técnica,Presencial,Fernanda,Sorocaba,Resolvido,61.6,72,True,False,2.0
+CH0205,2024-08-21,Falha técnica,E-mail,Lucas,Ribeirão Preto,Cancelado,82.1,72,True,True,
+CH0206,2024-10-30,Dúvida de uso,Presencial,Roberto,Ribeirão Preto,Cancelado,62.4,24,False,False,
+CH0207,2024-12-10,Manutenção preventiva,App,Carlos,Sorocaba,Em aberto,106.8,48,False,False,
+CH0208,2024-08-30,Dúvida de uso,E-mail,Lucas,Santos,Cancelado,76.0,24,False,False,
+CH0209,2024-03-16,Falha técnica,Telefone,Ana,Santos,Resolvido,75.9,72,True,True,6.0
+CH0210,2024-09-13,Peça com defeito,Telefone,Fernanda,Sorocaba,Em aberto,144.9,96,False,False,
+CH0211,2024-07-11,Dúvida de uso,Presencial,Roberto,Sorocaba,Resolvido,64.4,24,False,False,5.0
+CH0212,2024-09-04,Falha técnica,App,Ana,Santos,Resolvido,68.1,72,True,False,4.0
+CH0213,2024-06-11,Instalação,App,Fernanda,Ribeirão Preto,Resolvido,44.6,36,True,False,8.0
+CH0214,2024-03-15,Dúvida de uso,App,Fernanda,Campinas,Resolvido,51.8,24,False,False,7.0
+CH0215,2024-04-13,Peça com defeito,App,Carlos,Sorocaba,Resolvido,106.2,96,True,False,9.0
+CH0216,2024-04-25,Falha técnica,Telefone,Ana,São Paulo,Resolvido,85.8,72,True,False,1.0
+CH0217,2024-10-08,Falha técnica,Presencial,Roberto,Ribeirão Preto,Em aberto,67.2,72,True,False,
+CH0218,2024-11-26,Manutenção preventiva,E-mail,Ana,Santos,Resolvido,62.0,48,True,False,0.0
+CH0219,2024-03-31,Manutenção preventiva,Presencial,Roberto,São Paulo,Em aberto,63.0,48,True,False,
+CH0220,2024-01-05,Dúvida de uso,Telefone,Lucas,Sorocaba,Cancelado,64.1,24,False,False,
+CH0221,2024-09-09,Falha técnica,Presencial,Fernanda,Ribeirão Preto,Cancelado,89.1,72,True,False,
+CH0222,2024-04-05,Manutenção preventiva,App,Fernanda,Santos,Resolvido,63.3,48,True,False,2.0
+CH0223,2024-09-20,Dúvida de uso,Presencial,Ana,São Paulo,Resolvido,18.7,24,True,False,2.0
+CH0224,2024-05-13,Instalação,Presencial,Lucas,São Paulo,Resolvido,105.8,36,False,False,4.0
+CH0225,2024-05-13,Dúvida de uso,Telefone,Lucas,Ribeirão Preto,Resolvido,28.8,24,True,False,2.0
+CH0226,2024-12-19,Manutenção preventiva,App,Fernanda,Sorocaba,Resolvido,43.9,48,True,False,2.0
+CH0227,2024-07-10,Instalação,Presencial,Ana,Sorocaba,Cancelado,98.5,36,False,False,
+CH0228,2024-02-11,Peça com defeito,App,Lucas,Sorocaba,Em aberto,104.3,96,True,True,
+CH0229,2024-04-13,Peça com defeito,E-mail,Ana,Sorocaba,Cancelado,114.8,96,True,False,
+CH0230,2024-09-07,Manutenção preventiva,Presencial,Fernanda,Sorocaba,Cancelado,93.8,48,False,False,
+CH0231,2024-01-30,Peça com defeito,App,Ana,Sorocaba,Em aberto,139.0,96,False,False,
+CH0232,2024-02-07,Manutenção preventiva,App,Carlos,Santos,Em aberto,98.0,48,False,True,
+CH0233,2024-01-17,Dúvida de uso,E-mail,Fernanda,Ribeirão Preto,Em aberto,84.8,24,False,False,
+CH0234,2024-07-14,Instalação,Presencial,Ana,Ribeirão Preto,Em aberto,58.7,36,True,False,
+CH0235,2024-03-01,Falha técnica,Presencial,Carlos,São Paulo,Cancelado,86.2,72,True,True,
+CH0236,2024-06-01,Instalação,Presencial,Roberto,Campinas,Cancelado,53.6,36,True,False,
+CH0237,2024-05-21,Falha técnica,Telefone,Carlos,São Paulo,Resolvido,116.1,72,False,True,0.0
+CH0238,2024-10-31,Manutenção preventiva,Telefone,Lucas,Campinas,Em aberto,37.6,48,True,False,
+CH0239,2024-01-29,Falha técnica,App,Lucas,Sorocaba,Cancelado,93.0,72,True,False,
+CH0240,2024-12-10,Dúvida de uso,App,Roberto,Ribeirão Preto,Resolvido,95.3,24,False,False,8.0
+CH0241,2024-02-01,Peça com defeito,E-mail,Roberto,Santos,Cancelado,99.4,96,True,False,
+CH0242,2024-09-25,Dúvida de uso,Presencial,Fernanda,Campinas,Em aberto,25.6,24,True,False,
+CH0243,2024-04-25,Dúvida de uso,Presencial,Ana,Santos,Resolvido,75.0,24,False,False,6.0
+CH0244,2024-05-04,Dúvida de uso,App,Ana,São Paulo,Resolvido,45.2,24,True,True,5.0
+CH0245,2024-05-17,Instalação,Telefone,Lucas,Campinas,Cancelado,69.0,36,False,False,
+CH0246,2024-09-02,Falha técnica,App,Carlos,Santos,Resolvido,96.7,72,False,False,3.0
+CH0247,2024-05-04,Peça com defeito,Presencial,Lucas,Ribeirão Preto,Resolvido,146.5,96,False,False,4.0
+CH0248,2024-06-06,Dúvida de uso,Presencial,Roberto,Campinas,Resolvido,40.9,24,True,False,7.0
+CH0249,2024-07-08,Dúvida de uso,Telefone,Roberto,Sorocaba,Em aberto,20.0,24,True,False,
+CH0250,2024-10-26,Peça com defeito,App,Ana,Santos,Em aberto,95.9,96,True,False,
+CH0251,2024-10-08,Dúvida de uso,Presencial,Roberto,Campinas,Resolvido,78.8,24,False,False,7.0
+CH0252,2024-03-12,Peça com defeito,E-mail,Carlos,Sorocaba,Em aberto,146.0,96,False,False,
+CH0253,2024-01-18,Manutenção preventiva,Telefone,Ana,São Paulo,Resolvido,66.3,48,True,True,3.0
+CH0254,2024-04-21,Peça com defeito,App,Fernanda,Santos,Em aberto,107.0,96,True,False,
+CH0255,2024-01-09,Manutenção preventiva,Presencial,Roberto,São Paulo,Cancelado,55.1,48,True,False,
+CH0256,2024-09-14,Instalação,Telefone,Lucas,Ribeirão Preto,Resolvido,85.2,36,False,False,3.0
+CH0257,2024-06-30,Dúvida de uso,Telefone,Ana,Ribeirão Preto,Em aberto,26.6,24,True,False,
+CH0258,2024-12-16,Manutenção preventiva,Telefone,Carlos,Campinas,Resolvido,49.6,48,True,True,7.0
+CH0259,2024-02-12,Instalação,App,Lucas,São Paulo,Em aberto,54.9,36,True,True,
+CH0260,2024-04-27,Falha técnica,Presencial,Roberto,Sorocaba,Cancelado,93.3,72,True,False,
+CH0261,2024-10-15,Manutenção preventiva,App,Fernanda,São Paulo,Resolvido,43.5,48,True,False,2.0
+CH0262,2024-06-02,Falha técnica,E-mail,Lucas,Ribeirão Preto,Cancelado,90.6,72,True,False,
+CH0263,2024-07-15,Falha técnica,App,Lucas,Sorocaba,Resolvido,75.7,72,True,False,1.0
+CH0264,2024-07-22,Dúvida de uso,App,Fernanda,Santos,Resolvido,69.6,24,False,False,3.0
+CH0265,2024-04-05,Peça com defeito,Telefone,Carlos,São Paulo,Em aberto,134.2,96,False,False,
+CH0266,2024-05-17,Falha técnica,E-mail,Carlos,Ribeirão Preto,Em aberto,111.2,72,False,True,
+CH0267,2024-08-15,Dúvida de uso,Telefone,Lucas,Santos,Resolvido,18.7,24,True,False,7.0
+CH0268,2024-02-22,Manutenção preventiva,App,Carlos,Ribeirão Preto,Resolvido,57.5,48,True,False,5.0
+CH0269,2024-07-30,Instalação,E-mail,Roberto,Ribeirão Preto,Resolvido,30.1,36,True,False,6.0
+CH0270,2024-05-17,Instalação,Telefone,Carlos,Ribeirão Preto,Resolvido,33.9,36,True,False,4.0
+CH0271,2024-05-08,Falha técnica,E-mail,Fernanda,Ribeirão Preto,Em aberto,64.9,72,True,True,
+CH0272,2024-11-13,Instalação,Presencial,Ana,Ribeirão Preto,Resolvido,53.4,36,True,False,10.0
+CH0273,2024-06-13,Peça com defeito,Presencial,Fernanda,Sorocaba,Resolvido,118.7,96,True,False,5.0
+CH0274,2024-05-04,Dúvida de uso,App,Lucas,Campinas,Em aberto,66.9,24,False,False,
+CH0275,2024-10-30,Peça com defeito,Telefone,Roberto,São Paulo,Resolvido,142.2,96,False,False,3.0
+CH0276,2024-07-28,Instalação,App,Carlos,Santos,Resolvido,47.7,36,True,False,6.0
+CH0277,2024-11-02,Instalação,Presencial,Fernanda,Sorocaba,Cancelado,57.2,36,True,False,
+CH0278,2024-01-19,Dúvida de uso,Telefone,Ana,Sorocaba,Cancelado,20.9,24,True,False,
+CH0279,2024-01-23,Peça com defeito,App,Roberto,Campinas,Em aberto,140.7,96,False,True,
+CH0280,2024-09-18,Peça com defeito,E-mail,Lucas,Sorocaba,Cancelado,98.1,96,True,False,
+CH0281,2024-03-18,Dúvida de uso,Presencial,Ana,Ribeirão Preto,Resolvido,27.0,24,True,False,1.0
+CH0282,2024-06-08,Dúvida de uso,E-mail,Fernanda,Ribeirão Preto,Em aberto,24.5,24,True,True,
+CH0283,2024-02-04,Dúvida de uso,Telefone,Ana,Campinas,Resolvido,24.4,24,True,False,1.0
+CH0284,2024-09-21,Falha técnica,E-mail,Fernanda,Campinas,Cancelado,75.3,72,True,False,
+CH0285,2024-04-05,Instalação,Telefone,Fernanda,Santos,Em aberto,102.4,36,False,False,
+CH0286,2024-01-03,Falha técnica,App,Lucas,Campinas,Resolvido,134.8,72,False,False,1.0
+CH0287,2024-07-06,Dúvida de uso,Presencial,Roberto,Sorocaba,Resolvido,36.1,24,True,False,7.0
+CH0288,2024-07-17,Peça com defeito,Telefone,Roberto,Sorocaba,Em aberto,114.4,96,True,False,
+CH0289,2024-10-29,Manutenção preventiva,App,Ana,Sorocaba,Resolvido,47.0,48,True,False,2.0
+CH0290,2024-07-17,Instalação,E-mail,Lucas,Campinas,Cancelado,39.2,36,True,False,
+CH0291,2024-10-11,Falha técnica,App,Carlos,Ribeirão Preto,Em aberto,71.3,72,True,False,
+CH0292,2024-01-05,Instalação,E-mail,Fernanda,Santos,Resolvido,106.3,36,False,False,8.0
+CH0293,2024-07-31,Instalação,E-mail,Roberto,São Paulo,Em aberto,25.1,36,True,False,
+CH0294,2024-05-20,Falha técnica,App,Fernanda,Sorocaba,Cancelado,76.5,72,True,False,
+CH0295,2024-09-18,Manutenção preventiva,Telefone,Lucas,São Paulo,Cancelado,55.6,48,True,False,
+CH0296,2024-08-13,Peça com defeito,Presencial,Carlos,Santos,Resolvido,113.9,96,True,False,3.0
+CH0297,2024-05-14,Dúvida de uso,Presencial,Lucas,Ribeirão Preto,Resolvido,53.6,24,False,False,3.0
+CH0298,2024-12-29,Peça com defeito,E-mail,Carlos,Sorocaba,Em aberto,112.3,96,True,False,
+CH0299,2024-06-28,Peça com defeito,E-mail,Lucas,São Paulo,Resolvido,109.3,96,True,False,4.0
+CH0300,2024-03-10,Instalação,App,Roberto,Campinas,Resolvido,66.1,36,False,False,2.0
+CH0301,2024-12-12,Instalação,E-mail,Fernanda,São Paulo,Em aberto,33.7,36,True,False,
+CH0302,2024-11-20,Manutenção preventiva,App,Fernanda,Ribeirão Preto,Em aberto,114.1,48,False,False,
+CH0303,2024-10-24,Manutenção preventiva,Presencial,Fernanda,Campinas,Resolvido,61.1,48,True,False,1.0
+CH0304,2024-08-07,Falha técnica,App,Ana,Sorocaba,Em aberto,70.2,72,True,False,
+CH0305,2024-09-05,Dúvida de uso,Telefone,Ana,Santos,Resolvido,40.2,24,True,True,7.0
+CH0306,2024-08-21,Manutenção preventiva,E-mail,Roberto,Campinas,Em aberto,115.7,48,False,False,
+CH0307,2024-05-20,Manutenção preventiva,App,Fernanda,Ribeirão Preto,Resolvido,59.9,48,True,False,10.0
+CH0308,2024-12-24,Falha técnica,Telefone,Ana,Sorocaba,Em aberto,96.1,72,False,False,
+CH0309,2024-04-25,Peça com defeito,Telefone,Fernanda,Campinas,Em aberto,96.4,96,True,False,
+CH0310,2024-09-01,Manutenção preventiva,Presencial,Roberto,Campinas,Resolvido,65.0,48,True,False,1.0
+CH0311,2024-07-14,Falha técnica,Telefone,Roberto,Campinas,Resolvido,60.3,72,True,True,10.0
+CH0312,2024-11-17,Falha técnica,Presencial,Carlos,Sorocaba,Em aberto,100.2,72,False,True,
+CH0313,2024-07-15,Dúvida de uso,App,Ana,Sorocaba,Em aberto,59.9,24,False,False,
+CH0314,2024-11-03,Peça com defeito,App,Roberto,Campinas,Cancelado,153.1,96,False,False,
+CH0315,2024-09-22,Peça com defeito,E-mail,Ana,Santos,Cancelado,134.2,96,False,True,
+CH0316,2024-07-16,Manutenção preventiva,Presencial,Roberto,Campinas,Resolvido,38.6,48,True,False,0.0
+CH0317,2024-07-17,Peça com defeito,App,Carlos,São Paulo,Em aberto,90.2,96,True,False,
+CH0318,2024-10-27,Manutenção preventiva,App,Lucas,Santos,Resolvido,69.2,48,True,False,6.0
+CH0319,2024-08-04,Instalação,E-mail,Ana,Sorocaba,Resolvido,35.2,36,True,False,8.0
+CH0320,2024-06-16,Instalação,Telefone,Ana,São Paulo,Cancelado,39.7,36,True,False,
+CH0321,2024-05-05,Manutenção preventiva,Telefone,Ana,São Paulo,Em aberto,57.9,48,True,False,
+CH0322,2024-01-07,Falha técnica,E-mail,Roberto,Campinas,Resolvido,72.5,72,True,False,8.0
+CH0323,2024-07-09,Falha técnica,Telefone,Carlos,Ribeirão Preto,Resolvido,97.4,72,False,True,6.0
+CH0324,2024-12-30,Peça com defeito,Presencial,Ana,Ribeirão Preto,Resolvido,97.0,96,True,False,7.0
+CH0325,2024-03-21,Dúvida de uso,Telefone,Carlos,Campinas,Resolvido,30.3,24,True,False,0.0
+CH0326,2024-01-24,Instalação,Presencial,Fernanda,Campinas,Resolvido,68.6,36,False,False,0.0
+CH0327,2024-06-13,Falha técnica,App,Lucas,São Paulo,Em aberto,62.8,72,True,False,
+CH0328,2024-04-01,Falha técnica,Telefone,Roberto,Ribeirão Preto,Cancelado,99.3,72,False,False,
+CH0329,2024-06-16,Manutenção preventiva,Presencial,Roberto,Sorocaba,Cancelado,43.2,48,True,False,
+CH0330,2024-05-04,Instalação,Presencial,Ana,Campinas,Resolvido,97.2,36,False,False,8.0
+CH0331,2024-01-04,Instalação,E-mail,Carlos,Santos,Resolvido,46.9,36,True,False,0.0
+CH0332,2024-06-06,Manutenção preventiva,E-mail,Carlos,São Paulo,Resolvido,70.6,48,True,False,2.0
+CH0333,2024-04-28,Peça com defeito,App,Lucas,Campinas,Em aberto,110.9,96,True,False,
+CH0334,2024-11-22,Instalação,Telefone,Roberto,Santos,Resolvido,58.7,36,True,False,3.0
+CH0335,2024-12-24,Dúvida de uso,Presencial,Lucas,São Paulo,Resolvido,14.7,24,True,False,3.0
+CH0336,2024-03-20,Manutenção preventiva,Presencial,Ana,Santos,Resolvido,50.6,48,True,False,8.0
+CH0337,2024-06-06,Instalação,Telefone,Lucas,São Paulo,Resolvido,53.1,36,True,False,4.0
+CH0338,2024-04-20,Dúvida de uso,Telefone,Roberto,Ribeirão Preto,Resolvido,94.5,24,False,False,6.0
+CH0339,2024-03-30,Manutenção preventiva,Presencial,Carlos,Campinas,Em aberto,55.8,48,True,True,
+CH0340,2024-03-03,Manutenção preventiva,E-mail,Carlos,Sorocaba,Resolvido,65.7,48,True,False,5.0
+CH0341,2024-10-27,Dúvida de uso,Telefone,Ana,São Paulo,Resolvido,57.5,24,False,False,10.0
+CH0342,2024-06-18,Manutenção preventiva,Presencial,Fernanda,Santos,Resolvido,69.3,48,True,False,6.0
+CH0343,2024-01-16,Instalação,E-mail,Fernanda,Campinas,Em aberto,56.7,36,True,False,
+CH0344,2024-01-18,Peça com defeito,E-mail,Fernanda,São Paulo,Cancelado,102.0,96,True,False,
+CH0345,2024-02-14,Dúvida de uso,E-mail,Ana,Sorocaba,Em aberto,35.1,24,True,False,
+CH0346,2024-01-10,Instalação,Presencial,Fernanda,Ribeirão Preto,Resolvido,41.4,36,True,False,9.0
+CH0347,2024-04-02,Manutenção preventiva,E-mail,Fernanda,Sorocaba,Resolvido,65.2,48,True,True,4.0
+CH0348,2024-07-02,Peça com defeito,E-mail,Carlos,Campinas,Resolvido,107.6,96,True,False,4.0
+CH0349,2024-10-21,Instalação,E-mail,Carlos,Ribeirão Preto,Resolvido,45.3,36,True,False,5.0
+CH0350,2024-10-17,Peça com defeito,E-mail,Ana,Santos,Resolvido,158.9,96,False,False,7.0
+CH0351,2024-01-20,Manutenção preventiva,E-mail,Lucas,Campinas,Resolvido,36.7,48,True,True,7.0
+CH0352,2024-03-07,Dúvida de uso,App,Lucas,Ribeirão Preto,Resolvido,17.3,24,True,False,2.0
+CH0353,2024-02-07,Dúvida de uso,Telefone,Fernanda,Santos,Em aberto,23.6,24,True,False,
+CH0354,2024-11-28,Dúvida de uso,App,Roberto,Campinas,Resolvido,33.2,24,True,False,2.0
+CH0355,2024-03-31,Manutenção preventiva,Presencial,Ana,Sorocaba,Cancelado,109.0,48,False,False,
+CH0356,2024-06-11,Peça com defeito,Telefone,Roberto,Campinas,Resolvido,126.8,96,False,False,1.0
+CH0357,2024-11-21,Manutenção preventiva,Presencial,Carlos,São Paulo,Resolvido,43.5,48,True,False,1.0
+CH0358,2024-01-25,Instalação,Presencial,Fernanda,Ribeirão Preto,Em aberto,102.5,36,False,False,
+CH0359,2024-10-06,Instalação,Presencial,Fernanda,São Paulo,Resolvido,87.7,36,False,False,10.0
+CH0360,2024-01-18,Dúvida de uso,App,Fernanda,Campinas,Resolvido,15.8,24,True,False,5.0
+CH0361,2024-02-08,Peça com defeito,App,Fernanda,Campinas,Resolvido,106.1,96,True,False,7.0
+CH0362,2024-11-06,Instalação,Telefone,Lucas,Sorocaba,Resolvido,31.4,36,True,False,3.0
+CH0363,2024-05-15,Dúvida de uso,E-mail,Ana,São Paulo,Resolvido,26.1,24,True,False,8.0
+CH0364,2024-07-03,Manutenção preventiva,Telefone,Ana,São Paulo,Em aberto,59.8,48,True,False,
+CH0365,2024-01-14,Falha técnica,App,Fernanda,Santos,Resolvido,118.7,72,False,False,1.0
+CH0366,2024-09-07,Dúvida de uso,Presencial,Carlos,Ribeirão Preto,Resolvido,43.9,24,True,False,5.0
+CH0367,2024-08-13,Instalação,E-mail,Carlos,São Paulo,Resolvido,87.1,36,False,False,2.0
+CH0368,2024-12-08,Dúvida de uso,Presencial,Fernanda,Sorocaba,Cancelado,76.3,24,False,False,
+CH0369,2024-08-02,Peça com defeito,E-mail,Carlos,Sorocaba,Em aberto,86.8,96,True,False,
+CH0370,2024-10-19,Peça com defeito,E-mail,Ana,Campinas,Cancelado,111.3,96,True,False,
+CH0371,2024-04-08,Falha técnica,Presencial,Ana,Sorocaba,Resolvido,84.6,72,True,False,3.0
+CH0372,2024-05-12,Dúvida de uso,Telefone,Lucas,Santos,Resolvido,26.3,24,True,False,5.0
+CH0373,2024-01-07,Peça com defeito,Presencial,Lucas,São Paulo,Cancelado,89.4,96,True,False,
+CH0374,2024-02-24,Peça com defeito,App,Fernanda,Sorocaba,Resolvido,162.2,96,False,False,6.0
+CH0375,2024-11-07,Instalação,E-mail,Fernanda,São Paulo,Resolvido,29.2,36,True,False,9.0
+CH0376,2024-07-21,Dúvida de uso,Telefone,Roberto,Ribeirão Preto,Resolvido,92.2,24,False,True,5.0
+CH0377,2024-05-23,Instalação,E-mail,Roberto,Ribeirão Preto,Resolvido,59.1,36,True,False,7.0
+CH0378,2024-08-01,Peça com defeito,E-mail,Lucas,Ribeirão Preto,Resolvido,116.9,96,True,False,6.0
+CH0379,2024-01-29,Peça com defeito,Telefone,Lucas,Sorocaba,Resolvido,102.2,96,True,False,2.0
+CH0380,2024-01-15,Falha técnica,E-mail,Roberto,Campinas,Resolvido,108.0,72,False,True,7.0
+CH0381,2024-05-20,Dúvida de uso,Presencial,Roberto,Santos,Em aberto,16.5,24,True,True,
+CH0382,2024-10-31,Instalação,Presencial,Roberto,São Paulo,Resolvido,36.6,36,True,False,2.0
+CH0383,2024-05-25,Manutenção preventiva,Telefone,Ana,Campinas,Em aberto,56.6,48,True,False,
+CH0384,2024-12-12,Falha técnica,Presencial,Ana,Campinas,Resolvido,91.1,72,True,True,10.0
+CH0385,2024-11-03,Manutenção preventiva,App,Fernanda,Ribeirão Preto,Resolvido,69.9,48,True,False,10.0
+CH0386,2024-08-23,Dúvida de uso,Presencial,Carlos,São Paulo,Resolvido,30.7,24,True,False,9.0
+CH0387,2024-09-18,Dúvida de uso,App,Roberto,Ribeirão Preto,Cancelado,15.9,24,True,True,
+CH0388,2024-05-21,Dúvida de uso,E-mail,Lucas,Santos,Resolvido,39.6,24,True,False,0.0
+CH0389,2024-12-04,Dúvida de uso,Telefone,Fernanda,Santos,Resolvido,47.9,24,True,False,4.0
+CH0390,2024-01-19,Peça com defeito,E-mail,Fernanda,Ribeirão Preto,Cancelado,109.7,96,True,False,
+CH0391,2024-09-16,Dúvida de uso,E-mail,Lucas,Campinas,Resolvido,28.9,24,True,False,4.0
+CH0392,2024-12-14,Dúvida de uso,E-mail,Roberto,Ribeirão Preto,Resolvido,38.8,24,True,False,4.0
+CH0393,2024-05-13,Peça com defeito,Presencial,Lucas,São Paulo,Resolvido,142.6,96,False,False,10.0
+CH0394,2024-08-29,Falha técnica,Telefone,Carlos,Campinas,Cancelado,114.3,72,False,True,
+CH0395,2024-03-11,Falha técnica,Presencial,Ana,São Paulo,Resolvido,138.9,72,False,True,7.0
+CH0396,2024-09-06,Dúvida de uso,App,Ana,Sorocaba,Resolvido,12.2,24,True,False,4.0
+CH0397,2024-03-22,Instalação,E-mail,Fernanda,Santos,Resolvido,46.8,36,True,False,6.0
+CH0398,2024-01-03,Manutenção preventiva,E-mail,Lucas,Campinas,Cancelado,117.6,48,False,False,
+CH0399,2024-01-10,Manutenção preventiva,E-mail,Lucas,Sorocaba,Resolvido,88.5,48,False,False,2.0
+CH0400,2024-06-05,Falha técnica,Telefone,Roberto,Santos,Resolvido,70.5,72,True,False,8.0
+CH0401,2024-12-17,Falha técnica,Presencial,Ana,Campinas,Resolvido,66.8,72,True,True,6.0
+CH0402,2024-04-18,Manutenção preventiva,E-mail,Fernanda,Ribeirão Preto,Cancelado,61.6,48,True,False,
+CH0403,2024-09-30,Peça com defeito,Telefone,Carlos,Santos,Resolvido,107.5,96,True,True,0.0
+CH0404,2024-08-15,Instalação,App,Roberto,Santos,Resolvido,29.5,36,True,False,10.0
+CH0405,2024-12-04,Manutenção preventiva,App,Carlos,Sorocaba,Cancelado,61.2,48,True,False,
+CH0406,2024-11-12,Manutenção preventiva,Telefone,Roberto,Sorocaba,Resolvido,95.9,48,False,False,9.0
+CH0407,2024-04-13,Dúvida de uso,App,Fernanda,Ribeirão Preto,Em aberto,31.7,24,True,False,
+CH0408,2024-04-30,Manutenção preventiva,Telefone,Carlos,Sorocaba,Resolvido,112.1,48,False,False,10.0
+CH0409,2024-02-08,Manutenção preventiva,E-mail,Carlos,Campinas,Resolvido,71.2,48,True,False,4.0
+CH0410,2024-01-21,Dúvida de uso,App,Ana,Campinas,Resolvido,16.2,24,True,True,0.0
+CH0411,2024-06-17,Dúvida de uso,App,Ana,São Paulo,Em aberto,52.5,24,False,False,
+CH0412,2024-07-24,Instalação,App,Fernanda,Campinas,Em aberto,93.1,36,False,False,
+CH0413,2024-02-27,Falha técnica,E-mail,Fernanda,Campinas,Resolvido,92.8,72,True,False,7.0
+CH0414,2024-11-08,Instalação,Telefone,Fernanda,São Paulo,Resolvido,102.2,36,False,False,2.0
+CH0415,2024-07-29,Instalação,Telefone,Lucas,Sorocaba,Resolvido,35.3,36,True,False,10.0
+CH0416,2024-04-24,Dúvida de uso,Telefone,Fernanda,Campinas,Cancelado,38.2,24,True,False,
+CH0417,2024-10-12,Peça com defeito,Telefone,Ana,São Paulo,Resolvido,89.6,96,True,False,7.0
+CH0418,2024-09-08,Dúvida de uso,App,Fernanda,Santos,Resolvido,50.4,24,False,False,3.0
+CH0419,2024-04-30,Manutenção preventiva,Presencial,Fernanda,Ribeirão Preto,Em aberto,93.5,48,False,False,
+CH0420,2024-03-01,Instalação,Telefone,Carlos,Sorocaba,Resolvido,25.3,36,True,True,8.0
+CH0421,2024-11-12,Dúvida de uso,E-mail,Carlos,Campinas,Cancelado,28.4,24,True,False,
+CH0422,2024-08-20,Dúvida de uso,Presencial,Carlos,Campinas,Cancelado,65.4,24,False,False,
+CH0423,2024-01-02,Dúvida de uso,App,Ana,Santos,Resolvido,25.5,24,True,True,1.0
+CH0424,2024-03-12,Instalação,App,Ana,Ribeirão Preto,Resolvido,30.8,36,True,False,6.0
+CH0425,2024-02-25,Instalação,Telefone,Lucas,Campinas,Resolvido,81.6,36,False,False,10.0
+CH0426,2024-09-12,Manutenção preventiva,Telefone,Lucas,Campinas,Cancelado,51.6,48,True,False,
+CH0427,2024-12-20,Peça com defeito,E-mail,Lucas,Santos,Resolvido,107.7,96,True,False,9.0
+CH0428,2024-08-02,Peça com defeito,App,Ana,Campinas,Resolvido,96.3,96,True,False,4.0
+CH0429,2024-07-30,Peça com defeito,App,Lucas,Campinas,Cancelado,146.3,96,False,False,
+CH0430,2024-04-12,Falha técnica,App,Ana,Sorocaba,Cancelado,140.2,72,False,True,
+CH0431,2024-10-04,Dúvida de uso,App,Lucas,Ribeirão Preto,Resolvido,33.0,24,True,False,10.0
+CH0432,2024-08-04,Manutenção preventiva,Telefone,Ana,Ribeirão Preto,Cancelado,41.2,48,True,False,
+CH0433,2024-03-23,Dúvida de uso,E-mail,Lucas,São Paulo,Resolvido,81.1,24,False,False,4.0
+CH0434,2024-07-02,Instalação,E-mail,Roberto,São Paulo,Resolvido,86.9,36,False,False,3.0
+CH0435,2024-07-14,Instalação,App,Ana,Sorocaba,Em aberto,62.6,36,False,False,
+CH0436,2024-08-14,Falha técnica,E-mail,Carlos,Campinas,Resolvido,142.3,72,False,False,4.0
+CH0437,2024-03-29,Peça com defeito,Presencial,Lucas,Ribeirão Preto,Resolvido,94.0,96,True,False,4.0
+CH0438,2024-01-03,Dúvida de uso,E-mail,Lucas,Ribeirão Preto,Em aberto,45.4,24,True,False,
+CH0439,2024-09-08,Peça com defeito,App,Ana,Sorocaba,Cancelado,109.5,96,True,False,
+CH0440,2024-02-04,Peça com defeito,Presencial,Ana,Ribeirão Preto,Resolvido,98.5,96,True,False,5.0
+CH0441,2024-06-18,Dúvida de uso,E-mail,Carlos,São Paulo,Resolvido,77.7,24,False,False,7.0
+CH0442,2024-12-08,Dúvida de uso,E-mail,Carlos,Ribeirão Preto,Em aberto,77.5,24,False,False,
+CH0443,2024-07-14,Manutenção preventiva,App,Roberto,Sorocaba,Em aberto,46.2,48,True,False,
+CH0444,2024-09-17,Instalação,Telefone,Carlos,São Paulo,Em aberto,47.5,36,True,False,
+CH0445,2024-03-26,Peça com defeito,Telefone,Ana,Santos,Cancelado,91.6,96,True,False,
+CH0446,2024-02-23,Falha técnica,Presencial,Ana,São Paulo,Cancelado,93.8,72,True,False,
+CH0447,2024-08-23,Dúvida de uso,Telefone,Lucas,Campinas,Resolvido,18.4,24,True,False,4.0
+CH0448,2024-05-12,Instalação,Presencial,Carlos,Sorocaba,Em aberto,39.6,36,True,True,
+CH0449,2024-01-04,Peça com defeito,Telefone,Roberto,Sorocaba,Resolvido,123.5,96,False,False,8.0
+CH0450,2024-02-14,Dúvida de uso,Presencial,Lucas,Campinas,Em aberto,35.8,24,True,False,
+CH0451,2024-03-10,Instalação,App,Roberto,São Paulo,Cancelado,66.9,36,False,False,
+CH0452,2024-10-10,Peça com defeito,Telefone,Carlos,Ribeirão Preto,Resolvido,104.6,96,True,False,6.0
+CH0453,2024-04-17,Dúvida de uso,Presencial,Ana,Sorocaba,Resolvido,88.9,24,False,False,2.0
+CH0454,2024-05-09,Falha técnica,E-mail,Lucas,Santos,Resolvido,80.4,72,True,False,0.0
+CH0455,2024-11-26,Peça com defeito,App,Fernanda,Ribeirão Preto,Resolvido,93.0,96,True,False,3.0
+CH0456,2024-07-01,Falha técnica,Telefone,Fernanda,Ribeirão Preto,Resolvido,62.5,72,True,False,3.0
+CH0457,2024-11-11,Dúvida de uso,E-mail,Fernanda,Campinas,Cancelado,25.1,24,True,False,
+CH0458,2024-01-03,Dúvida de uso,E-mail,Ana,Ribeirão Preto,Resolvido,78.8,24,False,False,4.0
+CH0459,2024-09-02,Instalação,App,Lucas,São Paulo,Em aberto,83.4,36,False,False,
+CH0460,2024-05-23,Falha técnica,E-mail,Carlos,São Paulo,Cancelado,91.9,72,True,True,
+CH0461,2024-09-16,Manutenção preventiva,Presencial,Roberto,Sorocaba,Cancelado,82.2,48,False,True,
+CH0462,2024-10-03,Instalação,App,Roberto,Campinas,Resolvido,56.1,36,True,False,9.0
+CH0463,2024-08-25,Peça com defeito,Telefone,Lucas,Campinas,Cancelado,102.1,96,True,False,
+CH0464,2024-09-20,Falha técnica,E-mail,Ana,Santos,Em aberto,94.2,72,True,False,
+CH0465,2024-07-02,Manutenção preventiva,Presencial,Ana,Sorocaba,Resolvido,45.5,48,True,True,3.0
+CH0466,2024-07-03,Instalação,Presencial,Carlos,Sorocaba,Em aberto,61.9,36,False,False,
+CH0467,2024-11-20,Dúvida de uso,E-mail,Carlos,Sorocaba,Resolvido,25.6,24,True,False,9.0
+CH0468,2024-05-08,Instalação,Presencial,Lucas,São Paulo,Resolvido,55.2,36,True,False,7.0
+CH0469,2024-09-13,Falha técnica,E-mail,Ana,Campinas,Em aberto,78.5,72,True,True,
+CH0470,2024-03-21,Dúvida de uso,Telefone,Carlos,Santos,Cancelado,26.9,24,True,False,
+CH0471,2024-12-11,Instalação,E-mail,Ana,São Paulo,Em aberto,47.3,36,True,False,
+CH0472,2024-03-06,Peça com defeito,E-mail,Ana,São Paulo,Cancelado,102.5,96,True,False,
+CH0473,2024-03-26,Dúvida de uso,Presencial,Roberto,São Paulo,Resolvido,32.3,24,True,False,0.0
+CH0474,2024-04-20,Instalação,Presencial,Lucas,Campinas,Cancelado,68.2,36,False,False,
+CH0475,2024-10-25,Falha técnica,App,Lucas,Sorocaba,Cancelado,84.7,72,True,False,
+CH0476,2024-02-05,Falha técnica,Presencial,Lucas,Santos,Em aberto,60.6,72,True,False,
+CH0477,2024-03-17,Peça com defeito,E-mail,Lucas,Sorocaba,Resolvido,106.1,96,True,False,0.0
+CH0478,2024-03-01,Manutenção preventiva,E-mail,Fernanda,Sorocaba,Em aberto,97.9,48,False,True,
+CH0479,2024-08-03,Dúvida de uso,Presencial,Lucas,São Paulo,Resolvido,40.9,24,True,False,6.0
+CH0480,2024-08-05,Falha técnica,Presencial,Lucas,Santos,Resolvido,139.7,72,False,True,1.0
+CH0481,2024-05-11,Falha técnica,Telefone,Ana,Ribeirão Preto,Resolvido,64.2,72,True,False,0.0
+CH0482,2024-07-28,Dúvida de uso,E-mail,Fernanda,Sorocaba,Resolvido,33.1,24,True,False,4.0
+CH0483,2024-07-06,Peça com defeito,Presencial,Roberto,Sorocaba,Resolvido,139.8,96,False,False,8.0
+CH0484,2024-10-11,Instalação,App,Carlos,Campinas,Resolvido,51.9,36,True,False,6.0
+CH0485,2024-08-16,Falha técnica,E-mail,Carlos,Campinas,Resolvido,88.3,72,True,False,8.0
+CH0486,2024-07-18,Manutenção preventiva,E-mail,Ana,Ribeirão Preto,Resolvido,57.6,48,True,True,1.0
+CH0487,2024-02-10,Peça com defeito,Presencial,Lucas,São Paulo,Resolvido,139.2,96,False,False,10.0
+CH0488,2024-03-30,Instalação,Telefone,Roberto,Campinas,Em aberto,47.6,36,True,False,
+CH0489,2024-01-18,Peça com defeito,E-mail,Carlos,Campinas,Cancelado,108.3,96,True,False,
+CH0490,2024-02-14,Dúvida de uso,App,Carlos,São Paulo,Em aberto,26.6,24,True,False,
+CH0491,2024-02-16,Peça com defeito,App,Ana,Santos,Resolvido,113.4,96,True,False,3.0
+CH0492,2024-07-25,Peça com defeito,App,Roberto,Ribeirão Preto,Resolvido,102.2,96,True,True,8.0
+CH0493,2024-02-29,Peça com defeito,App,Ana,Ribeirão Preto,Resolvido,166.4,96,False,False,9.0
+CH0494,2024-08-22,Instalação,Telefone,Ana,Campinas,Cancelado,33.3,36,True,False,
+CH0495,2024-06-10,Instalação,Telefone,Roberto,São Paulo,Resolvido,72.6,36,False,True,4.0
+CH0496,2024-10-10,Falha técnica,App,Ana,Santos,Em aberto,92.2,72,True,True,
+CH0497,2024-04-12,Falha técnica,App,Roberto,Campinas,Resolvido,67.3,72,True,False,3.0
+CH0498,2024-02-24,Manutenção preventiva,Presencial,Fernanda,Ribeirão Preto,Resolvido,63.5,48,True,False,8.0
+CH0499,2024-11-13,Dúvida de uso,App,Roberto,Santos,Em aberto,47.4,24,True,False,
+CH0500,2024-04-23,Peça com defeito,Telefone,Roberto,Santos,Resolvido,99.2,96,True,True,8.0
